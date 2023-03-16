@@ -1,4 +1,4 @@
-//package Problem1;
+package Problem1;
 //import java.util.Scanner;
 //
 //public class problem2 {
