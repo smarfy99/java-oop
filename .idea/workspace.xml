@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1f0276-a490-4a14-b161-3a902227125c" name="Changes" comment="problem 2, 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem2/problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem2/problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem2/problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem2/problem2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +66,22 @@
       <recent name="$PROJECT_DIR$/src/Problem1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem2.problem1">
+  <component name="RunManager" selected="Application.Problem2.problem2">
     <configuration name="Problem2.problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem2.problem1" />
+      <module name="softwareproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Problem2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem2.problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem2.problem2" />
       <module name="softwareproject" />
       <extension name="coverage">
         <pattern>
@@ -115,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem2.problem2" />
         <item itemvalue="Application.Problem2.problem1" />
         <item itemvalue="Application.problem1" />
         <item itemvalue="Application.problem2" />
