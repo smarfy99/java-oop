@@ -22,6 +22,7 @@ public class MonthSchedule {
         while(select != 3) {
             if(select == 1) input();
             if(select == 2) view();
+            System.out.println("Insert: 1, Show: 2, Quit: 3");
             select = scanner.nextInt();
         }
         finish();
@@ -33,9 +34,8 @@ public class MonthSchedule {
 //        this.select = select; 를 할 필요가 없음
         System.out.print("Date(1-"+dayOfMonth+")?");
         date = scanner.nextInt();
-        System.out.println(date);
         System.out.print("Do list (without space)?");
-        todo = scanner.nextLine();
+        todo = scanner.next();
         dayArray[date-1] = new Day();
         dayArray[date-1].set(todo);
     }
@@ -43,7 +43,7 @@ public class MonthSchedule {
 //    2.show
     void view() {
         System.out.println("Date(1-"+dayOfMonth+")?" + date);
-        dayArray[date-1].show();
+        System.out.println(dayArray[date-1].show() + " on the "+date+"th.");
     }
 
 //    3.quit
