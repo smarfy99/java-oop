@@ -39,7 +39,22 @@ public class Student {
     }
 
     void setGrade(String grade){
-//        this는 grade를 업데이트 시켜줌
+//        this는 grade를 업데이트 시켜즘
         this.grade = grade;
+    }
+
+    double getGradeNumber() {
+        double gradeNumber;
+        if (grade == "A") gradeNumber = 4.0;
+        else gradeNumber = -1;
+        return gradeNumber;
+    }
+
+//    double의 변수를 여러개 받을 수 있다. 배열로 받을 수 있음.
+    void sumScores(double ... values) {
+        score = 0.0;
+        for (int i=0; i<values.length; i++) {
+            score += values[i];
+        }
     }
 }

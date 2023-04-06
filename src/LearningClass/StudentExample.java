@@ -10,6 +10,8 @@ public class StudentExample {
         st1.run();
         st1.setGrade("A");
         System.out.println();
+        double[] scores = {30,34,66};
+        st1.sumScores(scores);
 
         Student st2 = new Student("Mike", 20230000);
         st2.name = "Mike";
