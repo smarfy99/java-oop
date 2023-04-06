@@ -33,4 +33,13 @@ public class Student {
         this(name);
         laptop = new Laptop(laptopModel, laptopYear);
     }
+
+    void run() {
+        System.out.println("The Student"+name+"is running");
+    }
+
+    void setGrade(String grade){
+//        this는 grade를 업데이트 시켜줌
+        this.grade = grade;
+    }
 }

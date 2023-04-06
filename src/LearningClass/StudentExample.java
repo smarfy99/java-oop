@@ -7,6 +7,10 @@ public class StudentExample {
         System.out.println("st1's score:" + st1.score);
         System.out.println("st1's laptop:" + st1.laptop.model);
 
+        st1.run();
+        st1.setGrade("A");
+        System.out.println();
+
         Student st2 = new Student("Mike", 20230000);
         st2.name = "Mike";
         System.out.println("st2's name:"+st2.name);
