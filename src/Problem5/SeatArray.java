@@ -1,6 +1,4 @@
-package ch05.prob1;
-
-import ch05.sec02.Seat;
+package Problem5;
 
 public class SeatArray {
 	private char seatType;

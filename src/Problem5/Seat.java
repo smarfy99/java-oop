@@ -1,4 +1,4 @@
-package ch05.prob1;
+package Problem5;
 
 public class Seat {
 	private String name;
