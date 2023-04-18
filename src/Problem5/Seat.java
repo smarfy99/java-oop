@@ -4,19 +4,22 @@ public class Seat {
 	private String name;
 	
 	public void setName(String name) {
-		// to do
+		this.name = name;
 	}
 	
 	public void show() {
-		// to do
+//		js처럼 !name은 java에서는 안됨
+		if (name == null) System.out.print("---");
+		else {System.out.print(name);}
 	}
 	
 	public boolean isMatched(String checkName) {
-		// to do
+		if (name == null) return false;
+		else {return name.equals(checkName);}
 	}
 	
 	public void cancel() {
-		// to do
+		name = null;
 	}
 	
 	
