@@ -3,7 +3,6 @@ package Problem3;
 import java.util.Scanner;
 
 public class Prob2 {
-
 	public static void main(String[] args) {
 		int start_number = 0;
 		int current_number;
