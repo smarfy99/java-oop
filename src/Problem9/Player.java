@@ -1,11 +1,11 @@
 package Problem9;
 
-public class Player {
-    private String name;
-    private double speed;
-    private String[] tools;
+public interface Player {
+    void setSpeed(double speed);
 
-    String getName() {
-        return name;
-    }
+    void setTools(String[] tools);
+
+    void showDetails();
+
+    String getName();
 }
