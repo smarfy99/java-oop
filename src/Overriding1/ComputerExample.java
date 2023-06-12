@@ -1,4 +1,4 @@
-package Overriding;
+package Overriding1;
 
 public class ComputerExample {
     public static void main(String[] args) {

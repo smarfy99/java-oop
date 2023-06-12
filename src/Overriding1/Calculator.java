@@ -1,4 +1,4 @@
-package Overriding;
+package Overriding1;
 
 public class Calculator {
 //    메소드 선언

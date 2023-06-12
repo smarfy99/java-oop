@@ -1,4 +1,4 @@
-package Overriding;
+package Overriding1;
 
 public class Computer extends Calculator {
 //    메서드 오버라이딩
