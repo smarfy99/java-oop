@@ -7,6 +7,7 @@ public class SmartPhone extends Phone {
 //    생성자 선언
     public SmartPhone(String model, String color) {
 //        부모로부터 상속받은 필드
+        super(model, color); //Phone에 있는 생성자 호출
         this.model = model;
         this.color = color;
     }
